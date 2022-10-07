@@ -1,0 +1,47 @@
+
+body {
+  background-color:hsl(212, 45%, 89%);
+}
+
+#unutarnji {
+  
+    display:block;
+    margin:auto;
+    text-align: center;
+    background-color:hsl(0, 0%, 100%);
+    border: 10px;
+  border-radius: 25px;
+  width: 25%;
+  
+  }
+  #unutarnji>img
+  {
+    border: 10px;
+  border-radius: 25px;
+    margin-top: 4%;
+    width: 90%;
+  }
+  #unutarnji>p>b {
+    font-family: Outfit, sans-serif;
+  font-size: 15px;
+  flex-wrap: wrap;
+
+  }
+  #sivi {
+    font-family: Outfit, sans-serif;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  padding-bottom: 20px;
+}
+@media screen and (min-width: 1440px) {
+  body {
+    background-color:hsl(220, 15%, 55%);
+    
+  
+    
+  }
+ 
+  #unutarnji>p>b{
+    font-size: 30px;
+  }
+}
